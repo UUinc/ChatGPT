@@ -1,0 +1,57 @@
+:root
+{
+  --lightwhite : rgba(255, 255, 255, 0.5);
+  --lightblack : #242424;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid-main
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+
+.grid-child
+{
+  border: 1px solid var(--lightwhite);
+  border-radius: 10px;
+  padding: 10px;
+
+  cursor: pointer;
+}
+
+.grid-child:hover
+{
+  color: var(--lightblack);
+  background-color: var(--lightwhite);
+}
+
+.text-area
+{
+  font-size: 20px;
+  padding: 10px;
+}
+.text-result
+{
+  margin-top: 20px;
+}
+
+.btn-back
+{
+  display: block;
+  background-color: transparent;
+  border-radius: 0;
+}
+.btn-generate
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
